@@ -1,0 +1,12 @@
+{
+  "name": "Cloud to Butt",
+  "description": "changes cloud to butt on webpages",
+  "manifest_version": 2,
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [ "*://*/*" ],
+      "js": [ "cloud.js" ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Change the background",
+  "manifest_version": 2,
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [ "*://*/*" ],
+      "js": [ "bg.js" ]
+    }
+  ]
+}
